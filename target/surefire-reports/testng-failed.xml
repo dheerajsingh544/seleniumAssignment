@@ -3,16 +3,19 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="home.mainPageTest">
+      <class name="TestCase.contactPageTest">
         <methods>
           <include name="testcase2"/>
-          <include name="initImpl"/>
-          <include name="openBrowser"/>
           <include name="testcase1"/>
-          <include name="close"/>
-          <include name="testcase3"/>
         </methods>
-      </class> <!-- home.mainPageTest -->
+      </class> <!-- TestCase.contactPageTest -->
+      <class name="TestCase.homePageTest">
+        <methods>
+          <include name="testcase3"/>
+          <include name="openBrowser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- TestCase.homePageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

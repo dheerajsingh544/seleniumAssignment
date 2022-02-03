@@ -1,4 +1,6 @@
 core\CoreTestIntegration.class
+TestCase\homePageTest.class
 core\Listener.class
-home\mainPageTest.class
+TestCase\sauceDemoPageTest.class
 core\Logger.class
+TestCase\contactPageTest.class

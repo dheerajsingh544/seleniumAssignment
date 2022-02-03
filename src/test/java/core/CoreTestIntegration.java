@@ -4,11 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-import automationpractice_Dheeraj.webdrive_file;
+import Utils.webdrive_file;
 
 public class CoreTestIntegration {
-	 protected WebDriver driver;
-	    static final String URL = "http://automationpractice.com";
+	 	    //static final String URL = "http://automationpractice.com";
+	 	static final String URL="https://www.saucedemo.com/";
+	 	public static WebDriver driver=null;
 
 	    @BeforeClass
 	    public void openBrowser() {

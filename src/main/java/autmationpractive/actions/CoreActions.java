@@ -44,7 +44,6 @@ public class CoreActions {
 	    protected void enterText(By element, String text) {
 	        driver.findElement(element).sendKeys(text);
 	    }
-
 	    public void sleep(double sec) {
 	        try {
 	            Thread.sleep((long) (sec * 1000));

@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="home.mainPageTest">
+      <class name="TestCase.sauceDemoPageTest">
         <methods>
           <include name="initImpl"/>
+          <include name="testcase4"/>
           <include name="openBrowser"/>
           <include name="close"/>
-          <include name="testcase3"/>
         </methods>
-      </class> <!-- home.mainPageTest -->
+      </class> <!-- TestCase.sauceDemoPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

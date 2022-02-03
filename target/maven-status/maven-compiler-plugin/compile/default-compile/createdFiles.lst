@@ -1,5 +1,9 @@
-automationpractice\pages\home\HomePage.class
-automationpractice\pages\home\ContactPage.class
-autmationpractive\actions\HomePageImpl.class
-automationpractice_Dheeraj\webdrive_file.class
+PageFunctions\homePageFunction.class
+Utils\webdrive_file.class
+PageFunctions\sauceDemoPageFunction.class
+ObjectRepositories\contactPage_OR.class
+Utils\readUserData.class
+ObjectRepositories\homePage_OR.class
+ObjectRepositories\saucedemo_OR.class
+PageFunctions\contactPageFunction.class
 autmationpractive\actions\CoreActions.class
